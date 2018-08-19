@@ -3,7 +3,7 @@ package com.ashu.service;
 import java.util.Date;
 import java.util.List;
 
-import com.ashu.entity.Product;
+import com.ashu.model.Product;
 
 /**
  * Product service.

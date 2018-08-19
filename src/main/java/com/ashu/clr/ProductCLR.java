@@ -7,7 +7,7 @@ import java.util.List;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import com.ashu.entity.Product;
+import com.ashu.model.Product;
 import com.ashu.service.ProductService;
 
 import lombok.RequiredArgsConstructor;

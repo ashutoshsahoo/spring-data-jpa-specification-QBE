@@ -8,8 +8,8 @@ import javax.persistence.criteria.Predicate;
 
 import org.springframework.data.jpa.domain.Specification;
 
-import com.ashu.entity.Product;
-import com.ashu.entity.Product_;
+import com.ashu.model.Product;
+import com.ashu.model.Product_;
 
 /**
  * Provides {@link Specification}s for product repository.

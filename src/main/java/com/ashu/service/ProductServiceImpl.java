@@ -8,7 +8,7 @@ import org.springframework.data.domain.ExampleMatcher;
 import org.springframework.data.domain.ExampleMatcher.GenericPropertyMatcher;
 import org.springframework.stereotype.Service;
 
-import com.ashu.entity.Product;
+import com.ashu.model.Product;
 import com.ashu.repository.ProductRepository;
 import com.ashu.repository.ProductSpecifications;
 
