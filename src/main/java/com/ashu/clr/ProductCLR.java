@@ -30,16 +30,16 @@ public class ProductCLR implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 
 		List<Product> teas = productService.getBySpecificationQuery("tea", 35, null, null);
-		log.info("number of expensive teas was found : " + teas.size());
+		log.info("Number of expensive teas was found : " + teas.size());
 
 		List<Product> allTeas = productService.getBySpecificationQuery("tea", 0, null, null);
 		log.info("Some teas were found  : " + allTeas.size());
 
 		List<Product> expensiveProducts = productService.getBySpecificationQuery(null, 40, null, null);
-		log.info("coffee and tea should be present in expensive product's query : \n" + expensiveProducts);
+		log.info("Coffee and tea should be present in expensive product's query : \n" + expensiveProducts);
 
 		List<Product> gold = productService.getBySpecificationQuery("golden", 0, null, null);
-		log.info("They're no gold in the database: " + gold.size());
+		log.info("They is no gold in the database: " + gold.size());
 
 		Date startDate = Date.from(Instant.parse("2014-05-03T10:15:30.00Z"));
 		Date endDate = Date.from(Instant.parse("2014-07-03T10:15:30.00Z"));
