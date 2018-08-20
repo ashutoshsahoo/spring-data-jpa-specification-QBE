@@ -28,7 +28,7 @@ public class UserCLR implements CommandLineRunner {
     public void run(String... args) throws Exception {
 	log.info("user clr called");
 	Address address1 = new Address(null, "addr1", "addr2", "city", "country", 102340);
-	Address address2 = new Address(null, "A-16", "sector-60", "noida", "INDIA", 201301);
+	Address address2 = new Address(null, "A-167", "sector-1089", "noida", "INDIA", 201301);
 
 	List<Address> addresses = new ArrayList<>();
 	addresses.add(address1);
@@ -38,7 +38,7 @@ public class UserCLR implements CommandLineRunner {
 	userRepo.saveAndFlush(user);
 
 	Address address3 = new Address(null, "addr1", "addr2", "city", "country", 102343);
-	Address address4 = new Address(null, "HIG-21", "BJB Nagar", "BBSR", "INDIA", 751012);
+	Address address4 = new Address(null, "HIG-210", "BJB Nagar", "BBSR", "INDIA", 751012);
 
 	List<Address> addresses2 = new ArrayList<>();
 	addresses2.add(address3);
